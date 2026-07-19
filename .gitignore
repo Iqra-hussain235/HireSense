@@ -1,6 +1,4 @@
 # Environment Variables
-.env
-.env.local
 .env.*.local
 
 # Python
@@ -32,7 +30,6 @@ ENV/
 .venv
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -71,3 +68,5 @@ htmlcov/
 
 # Docker
 docker-compose.override.yml
+config.bat
+node_modules
